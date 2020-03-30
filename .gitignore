@@ -2,3 +2,5 @@
 .idea/
 
 .venv/
+
+mutual_aid/mutual_aid/__pycache__/
