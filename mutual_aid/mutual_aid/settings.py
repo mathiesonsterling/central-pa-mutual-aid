@@ -1,4 +1,6 @@
 import os  # isort:skip
+import django_heroku
+
 gettext = lambda s: s
 DATA_DIR = os.path.dirname(os.path.dirname(__file__))
 """
@@ -234,3 +236,7 @@ THUMBNAIL_PROCESSORS = (
     'filer.thumbnail_processors.scale_and_crop_with_subject_location',
     'easy_thumbnails.processors.filters'
 )
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
+

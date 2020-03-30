@@ -21,3 +21,6 @@ html5lib>=1.0.1
 Pillow>=3.0
 six
 pytz
+gunicorn>=20.0.4
+django-heroku>=0.3.1
+
